@@ -1,0 +1,43 @@
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+li {
+    padding-right: 3%;
+}
+
+body .rotated {
+    background: #1e2635;
+    transform: rotate(175deg);
+    padding-top: 25%;
+}
+
+.rotated .revert {
+    transform: rotate(-175deg);
+}
+
+.titillium-web-regular {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titillium-web-semibold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.signup {
+    background: #3b414f;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
